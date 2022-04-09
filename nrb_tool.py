@@ -2,25 +2,15 @@
 # -*- coding: utf-8 -*-
 # NRB SECURITY
 from time import sleep
-import os
+import os, sys, subprocess, instaloader, shutil, time, webbrowser, getpass, random, request, socket
 from os import system, chdir
 from subprocess import *
-import webbrowser
-import getpass
-import random
-import requests
-import socket
 from bs4 import BeautifulSoup
-import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtPrintSupport import *
-import subprocess
-import instaloader
-import shutil
-import time
 from argparse import ArgumentParser
 # Consol's colors
 W = '\033[0m'
